@@ -10,8 +10,7 @@ while True:
     average = sum / count
     number = int(input("Enter the number of pages: "))
     count += 1
-    if number == -1:
+    if number < 0:
+        print(f"Average number of pages: {average}")
         break
-
-print(f"Average number of pages: {average}")
 '''
